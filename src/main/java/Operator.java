@@ -8,6 +8,5 @@ public class Operator {
         double x = 4;
         double y = Math.sqrt(x);  //计算一个数的平方根，可以使用sqrt方法。
         System.out.println(y);  //将输出x的平方根。
-
     }
 }
