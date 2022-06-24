@@ -9,8 +9,7 @@ public class Constant {
                 + paperWidth * CM_PER_INCH + "by" + paperHeight * CM_PER_INCH);
         System.out.println("Print class constant" + A );  //打印类常量。
         //下面是枚举类型的学习。
-
-
-
+        enum Size {SMALL,MEDIUM,LARGE}  //枚举类型包括有限个命名值。
+        Size s = Size.MEDIUM;  //现在我们声明这种类型的变量。
     }
 }
